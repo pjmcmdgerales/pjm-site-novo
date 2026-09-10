@@ -1,0 +1,11 @@
+PJM — NOVO SITE | CONSTRUÇÃO 08
+UNIDADES FUNCIONAL
+
+Mantém a Construção 07 e aprimora a página de Unidades:
+- mapa Brasil + Espírito Santo;
+- lista de unidades e status;
+- seleção de unidade com detalhe;
+- estados visuais para unidade ativa e futura expansão;
+- responsividade.
+
+Teste localmente antes de publicar.

@@ -1,0 +1,18 @@
+CONSTRUÇÃO 05 — CONTATO FUNCIONAL
+
+Base: Construção 04 aprovada.
+
+Nesta etapa foram reforçadas as ações da página Contato:
+- WhatsApp abre o atendimento oficial;
+- e-mail abre o cliente de correio;
+- Instagram aponta para o perfil oficial do PJM;
+- endereço ganhou botão para abrir a localização no Google Maps;
+- visual e navegação das demais páginas foram preservados.
+
+TESTE:
+1. Extraia a pasta inteira.
+2. Abra index.html dentro da pasta.
+3. Entre em CONTATO.
+4. Teste WhatsApp, e-mail, Instagram e o botão de localização.
+
+Não publique no GitHub ainda.

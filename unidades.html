@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unidades | Projeto Jovem Militar</title>
+<link rel="stylesheet" href="unidades.css">
+<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+<header class="topbar"><div>DISCIPLINA <span>•</span> CIDADANIA <span>•</span> UM FUTURO MELHOR</div><div>SIGA-NOS: &nbsp; Instagram &nbsp; Facebook &nbsp; YouTube</div></header>
+<header class="header">
+  <div class="brand">
+    <img src="assets/brasao-comando-geral.png" alt="Brasão do Projeto Jovem Militar">
+    <div><strong>PROJETO JOVEM<br>MILITAR</strong><small>ESCOLA PREPARATÓRIA<br>PRÉ-MILITAR DO ESPÍRITO SANTO</small><em>COMANDO GERAL</em></div>
+  </div>
+  <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  <nav class="nav" aria-label="Navegação principal">
+    <a href="index.html">INÍCIO</a><a href="projeto.html">O PROJETO</a><a class="active" href="unidades.html">UNIDADES</a><a href="formacao.html">FORMAÇÃO</a><a href="como-participar.html">COMO PARTICIPAR</a><a href="noticias.html">NOTÍCIAS</a><a href="galeria.html">GALERIA</a><a href="instituicoes.html">INSTITUIÇÕES</a><a href="contato.html">CONTATO</a>
+  </nav>
+  <a class="header-cta" href="pre-inscricao.html">FAÇA SUA PRÉ-INSCRIÇÃO <span>→</span></a>
+</header>
+
+<main>
+<section class="units-hero">
+  <div class="hero-copy"><div class="eyebrow">03 &nbsp; • &nbsp; UNIDADES</div><h1>Presença,<br><i>formação e compromisso.</i></h1><p>Conheça a rede do Projeto Jovem Militar e acompanhe sua presença e expansão.</p></div>
+</section>
+
+<section class="units-main">
+  <div class="section-label">REDE PJM</div>
+  <div class="units-intro"><h2>Onde o Projeto<br>está presente.</h2><p>Uma rede construída para levar formação, disciplina e cidadania a diferentes municípios.</p></div>
+
+  <div class="map-layout">
+    <div class="map-box"><img src="assets/mapa-brasil-es.png" alt="Mapa do Brasil com destaque para o Espírito Santo"></div>
+    <div class="units-list" id="unitsList">
+      <button class="unit-card active" data-status="ativa"><span class="status green">UNIDADE ATIVA</span><strong>São Mateus — ES</strong><small>Comando Geral</small></button>
+      <button class="unit-card" data-status="expansao"><span class="status orange">EM FUTURA EXPANSÃO</span><strong>Barra de São Francisco — ES</strong><small>Expansão prevista</small></button>
+      <button class="unit-card" data-status="expansao"><span class="status orange">EM FUTURA EXPANSÃO</span><strong>Colatina — ES</strong><small>Expansão prevista</small></button>
+      <button class="unit-card" data-status="expansao"><span class="status orange">EM FUTURA EXPANSÃO</span><strong>Pedro Canário — ES</strong><small>Expansão prevista</small></button>
+      <button class="unit-card" data-status="expansao"><span class="status orange">EM FUTURA EXPANSÃO</span><strong>Conceição da Barra — ES</strong><small>Expansão prevista</small></button>
+      <button class="unit-card" data-status="expansao"><span class="status orange">EM FUTURA EXPANSÃO</span><strong>Teixeira de Freitas — BA</strong><small>Expansão prevista</small></button>
+    </div>
+  </div>
+
+  <div class="unit-detail" id="unitDetail">
+    <span class="section-label">UNIDADE SELECIONADA</span>
+    <h3>São Mateus — Espírito Santo</h3>
+    <p>Unidade vinculada ao Comando Geral do Projeto Jovem Militar.</p>
+  </div>
+
+  <div class="legend"><span><i class="dot green"></i> Unidade ativa</span><span><i class="dot orange"></i> Em futura expansão</span></div>
+</section>
+</main>
+
+<footer class="pjm-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand"><strong>PROJETO JOVEM MILITAR</strong><span>Escola Preparatória Pré-Militar do Espírito Santo</span><span>Comando Geral</span></div>
+    <div><h4>NAVEGAÇÃO</h4><a href="index.html">Início</a><a href="projeto.html">O Projeto</a><a href="unidades.html">Unidades</a><a href="formacao.html">Formação</a><a href="como-participar.html">Como Participar</a></div>
+    <div><h4>INFORMAÇÕES</h4><a href="instituicoes.html">Instituições</a><a href="galeria.html">Galeria</a><a href="noticias.html">Notícias</a><a href="contato.html">Contato</a><a href="pre-inscricao.html">Pré-inscrição</a></div>
+    <div><h4>CONTATO</h4><span>Avenida Coronel Mateus Cunha, 740<br>Sernamby — São Mateus/ES</span><a href="mailto:pjmcmdgerales@gmail.com">pjmcmdgerales@gmail.com</a><a href="https://wa.me/5527997310707" target="_blank" rel="noopener">WhatsApp (27) 99731-0707</a><a href="https://instagram.com/pjmcmdgerales" target="_blank" rel="noopener">@pjmcmdgerales</a></div>
+  </div>
+  <div class="footer-bottom"><span>PROJETO JOVEM MILITAR — COMANDO GERAL</span><span>CNPJ 62.823.934/0001-80</span></div>
+</footer>
+<script src="common.js"></script>
+<script>
+document.querySelectorAll('.unit-card').forEach(card=>{
+  card.addEventListener('click',()=>{
+    document.querySelectorAll('.unit-card').forEach(c=>c.classList.remove('active'));
+    card.classList.add('active');
+    const strong=card.querySelector('strong').textContent;
+    const small=card.querySelector('small').textContent;
+    document.querySelector('#unitDetail h3').textContent=strong;
+    document.querySelector('#unitDetail p').textContent=small + ' — informações institucionais serão atualizadas pelo Comando Geral.';
+  });
+});
+</script>
+</body>
+</html>

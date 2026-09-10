@@ -1,0 +1,16 @@
+PJM — NOVO SITE | CONSTRUÇÃO 09
+INSTITUIÇÕES FUNCIONAL
+
+Painel com sete referências institucionais:
+- Exército Brasileiro
+- Marinha do Brasil
+- Força Aérea Brasileira
+- Polícia Militar do Espírito Santo
+- Polícia Civil do Espírito Santo
+- Polícia Penal do Espírito Santo
+- Guarda Municipal de São Mateus
+
+Cada card possui acesso ao canal oficial correspondente.
+A página deixa explícito que referência institucional não significa parceria, convênio ou vínculo com o PJM.
+
+Teste localmente antes de publicar.

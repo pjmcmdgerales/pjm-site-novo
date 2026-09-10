@@ -1,0 +1,13 @@
+PJM — NOVO SITE | CONSTRUÇÃO 07
+NOTÍCIAS FUNCIONAL
+
+Esta etapa mantém a Construção 06 e aprimora a página Notícias.
+Recursos:
+- filtros por categoria;
+- pesquisa por palavra;
+- leitura em janela modal;
+- estrutura preparada para futuras publicações;
+- responsividade preservada.
+
+Os textos desta versão são institucionais/de preparação e não representam notícias reais.
+Teste localmente antes de publicar.

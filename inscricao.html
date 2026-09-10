@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ficha de Inscrição | Projeto Jovem Militar</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.inscricao-page{background:#f5f3ec;min-height:100vh;color:#10241d}.form-hero{background:linear-gradient(135deg,#061c15,#0b3a2a);color:#fff;padding:55px 20px 40px}.form-hero .inner{max-width:1100px;margin:auto;display:flex;gap:24px;align-items:center}.form-hero img{width:105px;height:125px;object-fit:contain}.form-hero h1{margin:0 0 8px;font-size:clamp(30px,5vw,54px)}.form-hero p{margin:0;color:#e9e2cf}.form-wrap{max-width:1100px;margin:35px auto 70px;padding:0 20px}.notice{border-left:4px solid #c9a227;background:#fff;padding:18px 20px;margin-bottom:22px;box-shadow:0 8px 25px rgba(0,0,0,.06)}.stepper{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:22px}.step{padding:12px;background:#dfe6df;border-radius:5px;text-align:center;font-weight:800;font-size:13px}.step.active{background:#c9a227;color:#10241d}.card{background:#fff;border:1px solid #d8d6cc;padding:28px;margin-bottom:18px;box-shadow:0 10px 30px rgba(0,0,0,.05)}.card h2{margin:0 0 6px;color:#0b3a2a}.card .sub{margin:0 0 22px;color:#66736d}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-weight:700;font-size:14px}.field input,.field select,.field textarea{width:100%;box-sizing:border-box;padding:13px 14px;border:1px solid #c9cec8;border-radius:5px;background:#fff;font:inherit}.field textarea{min-height:100px;resize:vertical}.hint{font-size:12px;color:#68736e}.check{display:flex;gap:10px;align-items:flex-start;margin:12px 0;font-size:14px}.check input{margin-top:3px}.actions{display:flex;justify-content:space-between;gap:12px;margin-top:20px}.btn-form{border:0;border-radius:5px;padding:14px 22px;font-weight:900;cursor:pointer}.btn-primary{background:#0b3a2a;color:#fff}.btn-gold{background:#c9a227;color:#10241d}.btn-secondary{background:#e3e7e2;color:#10241d}.success{display:none;text-align:center;padding:45px 25px;background:#fff;border:1px solid #cbd6cc}.success h2{color:#0b3a2a}.code{font-size:25px;font-weight:900;letter-spacing:2px;margin:20px 0;color:#c9a227}.loading{opacity:.6;pointer-events:none}@media(max-width:700px){.form-hero .inner{flex-direction:column;text-align:center}.grid{grid-template-columns:1fr}.field.full{grid-column:auto}.stepper{grid-template-columns:1fr 1fr}.actions{flex-direction:column}.btn-form{width:100%}}
+</style>
+
+<style>
+body.inscricao-page{font-family:Arial,sans-serif;background:#f5f7f4!important;color:#10241d!important}
+.form-hero{background:linear-gradient(135deg,#001d18,#00392e)!important;border-bottom:1px solid #d4ad35}
+.form-hero .inner{max-width:1180px!important}
+.form-hero h1{font-family:Arial,sans-serif;font-weight:800;letter-spacing:-.5px}
+.form-wrap{max-width:1180px!important}
+.step.active{background:#d4ad35!important;color:#10241d!important}
+.btn-primary{background:#00392e!important}.btn-gold{background:#d4ad35!important}
+.card{border-radius:8px!important}.notice{border-left-color:#d4ad35!important}
+</style>
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body class="inscricao-page">
+<header class="form-hero"><div class="inner"><img src="assets/brasao-comando-geral.png" alt="Brasão do Comando Geral"><div><div style="letter-spacing:2px;font-weight:800;color:#d7bb53">PROJETO JOVEM MILITAR</div><h1>Ficha de Inscrição</h1><p>Escola Preparatória Pré-Militar do Espírito Santo • Comando Geral</p></div></div></header>
+<main class="form-wrap">
+<div class="notice"><strong>Inscrição de participante de 10 a 17 anos.</strong><br>O preenchimento deve ser realizado pelo responsável legal ou com sua autorização. Os dados serão utilizados exclusivamente para fins de inscrição e contato do Projeto Jovem Militar.</div>
+<div class="stepper"><div class="step active" data-step="1">1 • ALUNO</div><div class="step" data-step="2">2 • RESPONSÁVEL</div><div class="step" data-step="3">3 • INTERESSE</div><div class="step" data-step="4">4 • CONFIRMAÇÃO</div></div>
+<form id="registrationForm" novalidate>
+<section class="card form-step" data-panel="1"><h2>Dados do aluno</h2><p class="sub">Informe os dados básicos do participante.</p><div class="grid">
+<div class="field full"><label>Nome completo *</label><input name="student_name" required maxlength="120"></div>
+<div class="field"><label>Data de nascimento *</label><input type="date" name="birth_date" required></div>
+<div class="field"><label>Sexo</label><select name="gender"><option value="">Prefiro não informar</option><option>Masculino</option><option>Feminino</option><option>Outro</option></select></div>
+<div class="field"><label>Escola onde estuda *</label><input name="school" required maxlength="160"></div>
+<div class="field"><label>Série / ano escolar *</label><input name="grade" required maxlength="60"></div>
+<div class="field"><label>Cidade *</label><input name="city" required maxlength="80"></div>
+</div><div class="actions"><span></span><button type="button" class="btn-form btn-primary next">CONTINUAR →</button></div></section>
+<section class="card form-step" data-panel="2" hidden><h2>Dados do responsável</h2><p class="sub">Esses dados serão usados para contato sobre a inscrição.</p><div class="grid">
+<div class="field full"><label>Nome completo do responsável *</label><input name="guardian_name" required maxlength="120"></div>
+<div class="field"><label>Parentesco *</label><input name="relationship" required maxlength="50" placeholder="Ex.: mãe, pai, responsável legal"></div>
+<div class="field"><label>CPF do responsável *</label><input name="guardian_cpf" required inputmode="numeric" maxlength="14" placeholder="000.000.000-00"></div>
+<div class="field"><label>WhatsApp / telefone *</label><input name="phone" required inputmode="tel" maxlength="20" placeholder="(27) 99999-9999"></div>
+<div class="field"><label>E-mail *</label><input type="email" name="email" required maxlength="160"></div>
+<div class="field full"><label>Endereço *</label><input name="address" required maxlength="220"></div>
+<div class="field"><label>Número *</label><input name="address_number" required maxlength="20"></div>
+<div class="field"><label>Bairro *</label><input name="neighborhood" required maxlength="100"></div>
+</div><div class="actions"><button type="button" class="btn-form btn-secondary prev">← VOLTAR</button><button type="button" class="btn-form btn-primary next">CONTINUAR →</button></div></section>
+<section class="card form-step" data-panel="3" hidden><h2>Interesse no PJM</h2><p class="sub">Ajude-nos a organizar o atendimento.</p><div class="grid">
+<div class="field"><label>Unidade de interesse *</label><select name="unit" required><option value="">Selecione</option><option>São Mateus</option><option>Barra de São Francisco</option><option>Colatina</option><option>Pedro Canário</option><option>Conceição da Barra</option><option>Teixeira de Freitas</option><option>Ainda não sei</option></select></div>
+<div class="field"><label>Turno preferencial</label><select name="preferred_shift"><option value="">Selecione</option><option>Manhã</option><option>Tarde</option><option>Noite</option><option>Indiferente</option></select></div>
+<div class="field"><label>Como conheceu o PJM?</label><select name="source"><option value="">Selecione</option><option>Instagram</option><option>Facebook</option><option>WhatsApp</option><option>Indicação</option><option>Evento / apresentação</option><option>Pesquisa na internet</option><option>Outro</option></select></div>
+<div class="field"><label>Já participou do PJM?</label><select name="previous_participation"><option value="Não">Não</option><option value="Sim">Sim</option></select></div>
+<div class="field full"><label>Observações</label><textarea name="notes" maxlength="1000" placeholder="Use este espaço apenas para informações relacionadas à inscrição. Não informe dados médicos ou outras informações sensíveis aqui."></textarea></div>
+</div><div class="actions"><button type="button" class="btn-form btn-secondary prev">← VOLTAR</button><button type="button" class="btn-form btn-primary next">CONTINUAR →</button></div></section>
+<section class="card form-step" data-panel="4" hidden><h2>Confirmação e autorização</h2><p class="sub">Leia antes de enviar.</p>
+<label class="check"><input type="checkbox" name="guardian_authorization" required><span>Declaro que sou responsável legal pelo participante ou estou autorizado a realizar esta inscrição.</span></label>
+<label class="check"><input type="checkbox" name="data_consent" required><span>Autorizo o Projeto Jovem Militar a utilizar os dados informados exclusivamente para processar esta inscrição, realizar contato e cumprir as finalidades administrativas relacionadas ao projeto.</span></label>
+<label class="check"><input type="checkbox" name="truth_declaration" required><span>Declaro que as informações fornecidas são verdadeiras e estou ciente de que a inscrição não garante matrícula ou disponibilidade imediata de vaga.</span></label>
+<input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+<div class="actions"><button type="button" class="btn-form btn-secondary prev">← VOLTAR</button><button type="submit" class="btn-form btn-gold">ENVIAR FICHA DE INSCRIÇÃO</button></div></section>
+</form>
+<section class="success" id="success"><h2>INSCRIÇÃO RECEBIDA</h2><p>A ficha foi registrada com sucesso. Guarde o número abaixo para atendimento.</p><div class="code" id="protocol">PJM-000000</div><p>Se necessário, nossa equipe poderá entrar em contato pelo WhatsApp ou e-mail informado.</p><a class="btn-form btn-primary" href="index.html" style="display:inline-block;text-decoration:none">VOLTAR AO SITE</a></section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script>
+<script>
+const panels=[...document.querySelectorAll('.form-step')], steps=[...document.querySelectorAll('.step')]; let current=1;
+function show(n){current=n;panels.forEach(p=>p.hidden=+p.dataset.panel!==n);steps.forEach(s=>s.classList.toggle('active',+s.dataset.step===n));window.scrollTo({top:0,behavior:'smooth'})}
+function validatePanel(){const p=document.querySelector(`[data-panel="${current}"]`);const inputs=[...p.querySelectorAll('input,select,textarea')].filter(x=>x.type!=='checkbox'&&x.name!=='website'); for(const i of inputs){if(!i.checkValidity()){i.reportValidity();return false}} if(current===4){for(const c of p.querySelectorAll('input[type=checkbox]'))if(!c.checked){c.reportValidity();return false}} return true}
+document.querySelectorAll('.next').forEach(b=>b.onclick=()=>{if(validatePanel())show(Math.min(4,current+1))});document.querySelectorAll('.prev').forEach(b=>b.onclick=()=>show(Math.max(1,current-1)));
+function formData(){const fd=new FormData(document.getElementById('registrationForm'));return Object.fromEntries(fd.entries())}
+function protocol(){return 'PJM-'+Date.now().toString().slice(-8)}
+document.getElementById('registrationForm').addEventListener('submit',async e=>{e.preventDefault();if(!validatePanel())return;const data=formData();if(data.website)return;const btn=e.submitter;btn.disabled=true;btn.textContent='ENVIANDO...';try{if(!window.PJM_CONFIG?.supabaseUrl||!window.PJM_CONFIG?.supabaseAnonKey)throw new Error('CONFIG');const client=supabase.createClient(PJM_CONFIG.supabaseUrl,PJM_CONFIG.supabaseAnonKey);const p=protocol();const {error}=await client.from('inscricoes').insert({protocolo:p,nome_aluno:data.student_name,data_nascimento:data.birth_date,sexo:data.gender||null,escola:data.school,serie:data.grade,cidade:data.city,nome_responsavel:data.guardian_name,parentesco:data.relationship,cpf_responsavel:data.guardian_cpf,telefone_responsavel:data.phone,email_responsavel:data.email,endereco:data.address,numero_endereco:data.address_number,bairro:data.neighborhood,unidade_interesse:data.unit,turno_preferencial:data.preferred_shift||null,como_conheceu:data.source||null,participou_anteriormente:data.previous_participation==='Sim',observacoes:data.notes||null,autorizacao_responsavel:true,ciencia_regras:true,autorizacao_dados:true});if(error)throw error;document.getElementById('registrationForm').style.display='none';document.querySelector('.stepper').style.display='none';document.querySelector('.notice').style.display='none';document.getElementById('success').style.display='block';document.getElementById('protocol').textContent=p;window.scrollTo({top:0,behavior:'smooth'});}catch(err){console.error(err);alert('Não foi possível enviar a inscrição agora. Verifique a configuração do sistema ou tente novamente.');btn.disabled=false;btn.textContent='ENVIAR FICHA DE INSCRIÇÃO'}});
+</script>
+</body></html>

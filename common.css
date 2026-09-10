@@ -1,0 +1,22 @@
+
+/* PJM — CONSTRUÇÃO 02: navegação e rodapé unificados */
+.nav{gap:clamp(10px,1.15vw,20px)!important;align-items:center!important;justify-content:center!important;white-space:nowrap!important}
+.nav a{font-size:clamp(9px,0.72vw,12px)!important;letter-spacing:.35px!important}
+.nav a:after{background:#fff!important;height:2px!important}
+.nav a.active:after{transform:scaleX(1)!important}
+.header-cta,.cta{white-space:nowrap}
+.pjm-footer{background:#001d18;color:#f7f8f4;border-top:1px solid rgba(212,173,53,.34);padding:58px 0 0}
+.pjm-footer .footer-grid{display:grid;grid-template-columns:1.35fr .8fr 1fr;gap:54px}
+.pjm-footer .footer-title{font-size:22px;font-weight:700;letter-spacing:.08em}
+.pjm-footer .footer-subtitle{margin-top:9px;font-size:11px;line-height:1.6;letter-spacing:.08em;color:rgba(247,248,244,.72);max-width:360px}
+.pjm-footer .footer-command{margin-top:8px;font-size:12px;letter-spacing:.18em;color:#d4ad35}
+.pjm-footer .footer-brand p{margin:22px 0 0;max-width:400px;color:rgba(247,248,244,.68);line-height:1.8;font-size:14px}
+.pjm-footer .footer-links,.pjm-footer .footer-contact{display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.pjm-footer .footer-links strong,.pjm-footer .footer-contact strong{margin-bottom:8px;font-size:11px;letter-spacing:.16em;color:#d4ad35}
+.pjm-footer .footer-links a,.pjm-footer .footer-contact span{font-size:13px;color:rgba(247,248,244,.78);text-decoration:none;line-height:1.45}
+.pjm-footer .footer-links a:hover{color:#fff}
+.pjm-footer .footer-bottom{margin-top:46px;padding:18px 0 20px;border-top:1px solid rgba(247,248,244,.12);display:flex;justify-content:space-between;gap:20px;font-size:11px;color:rgba(247,248,244,.5)}
+@media(max-width:1150px){.nav{gap:9px!important}.nav a{font-size:9px!important}.header-cta,.cta{padding-left:16px!important;padding-right:16px!important;font-size:9px!important}.brand{min-width:350px!important}}
+@media(max-width:900px){.pjm-footer .footer-grid{grid-template-columns:1fr 1fr;gap:38px}.pjm-footer .footer-brand{grid-column:1/-1}}
+@media(max-width:850px){.nav{position:absolute!important;display:none!important;left:0!important;right:0!important;top:100%!important;background:#00251f!important;padding:10px 25px!important;flex-direction:column!important;gap:0!important;box-shadow:0 14px 24px rgba(0,0,0,.18)}.nav.open{display:flex!important}.nav a{font-size:11px!important;padding:14px 0!important}.nav a:after{bottom:5px!important}.menu-toggle{display:block!important;background:none!important;border:0!important;color:#fff!important;font-size:25px!important}.header-cta,.cta{display:none!important}}
+@media(max-width:560px){.pjm-footer .footer-grid{grid-template-columns:1fr}.pjm-footer .footer-brand{grid-column:auto}.pjm-footer .footer-bottom{flex-direction:column}.pjm-footer .footer-bottom span:last-child{text-align:left}}

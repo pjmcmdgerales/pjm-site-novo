@@ -1,0 +1,13 @@
+CONSTRUÇÃO 04 — GALERIA INTERATIVA
+
+Abra o index.html dentro desta pasta para testar o site completo.
+
+Nesta etapa, a galeria recebeu:
+- abertura ampliada das fotografias;
+- navegação anterior/próxima;
+- fechamento por botão, fundo ou tecla Esc;
+- navegação pelas setas do teclado;
+- suporte a Enter/Espaço nos cartões;
+- adaptação para celular.
+
+Não publicar no GitHub antes da aprovação do teste local.

@@ -1,0 +1,11 @@
+PJM — NOVO SITE | CONSTRUÇÃO 06
+Responsividade para computador, tablet e celular.
+
+Teste:
+1. Extraia a pasta inteira.
+2. Abra index.html.
+3. Reduza a largura da janela do navegador.
+4. Teste o menu, botões, galeria e páginas.
+5. Não publique no GitHub ainda.
+
+A Construção 06 preserva as etapas anteriores e acrescenta a camada responsiva compartilhada.

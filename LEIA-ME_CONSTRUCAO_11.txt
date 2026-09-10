@@ -1,0 +1,20 @@
+PJM — NOVO SITE | CONSTRUÇÃO 11
+REVISÃO FINAL DE INTEGRAÇÃO
+
+Esta etapa parte da Construção 10 e faz uma revisão estrutural do conjunto antes da publicação.
+
+VERIFICAÇÕES:
+- páginas HTML reunidas no mesmo pacote;
+- navegação interna existente;
+- arquivos CSS/JS e imagens referenciados conferidos;
+- pré-inscrição institucional ligada ao formulário oficial;
+- formulário inscricao.html preservado, sem alteração da lógica Supabase;
+- rodapé e navegação mantidos;
+- site continua independente do projeto antigo.
+
+TESTE LOCAL RECOMENDADO:
+1. Abra index.html.
+2. Teste o menu página por página.
+3. Teste Pré-inscrição e o formulário até a Ficha 4.
+4. Teste Galeria, Notícias, Unidades e Contato.
+5. Só depois da aprovação desta etapa considerar publicação no GitHub.
