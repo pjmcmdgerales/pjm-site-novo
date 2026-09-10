@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Charges | Projeto Jovem Militar</title>
+
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="responsive.css">
+
+<style>
+    .charges-page {
+        padding: 40px 20px 70px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .charges-intro {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .charges-intro h1 {
+        margin-bottom: 10px;
+    }
+
+    .charges-intro p {
+        max-width: 760px;
+        margin: 0 auto;
+        line-height: 1.6;
+    }
+
+    .charges-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+
+    .charge-card {
+        overflow: hidden;
+        border-radius: 14px;
+        background: #111;
+        box-shadow: 0 8px 25px rgba(0,0,0,.18);
+        transition: transform .25s ease, box-shadow .25s ease;
+    }
+
+    .charge-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 14px 32px rgba(0,0,0,.25);
+    }
+
+    .charge-card img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .charge-info {
+        padding: 16px;
+        text-align: center;
+    }
+
+    .charge-info h2 {
+        margin: 0 0 6px;
+        font-size: 1.15rem;
+    }
+
+    .charge-info p {
+        margin: 0;
+        opacity: .8;
+        font-size: .95rem;
+    }
+
+    @media (max-width: 900px) {
+        .charges-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 600px) {
+        .charges-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .charges-page {
+            padding: 30px 15px 50px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header class="topbar">
+    <div>DISCIPLINA <span></span> CIDADANIA <span></span> UM FUTURO MELHOR</div>
+    <div>SIGA-NOS: &nbsp; Instagram &nbsp; Facebook &nbsp; YouTube</div>
+</header>
+
+<header class="header">
+
+    <div class="brand">
+        <img src="assets/brasao-comando-geral.png"
+             alt="Brasão Projeto Jovem Militar">
+
+        <div>
+            <strong>PROJETO JOVEM<br>MILITAR</strong>
+            <small>ESCOLA PREPARATÓRIA PRÉ-MILITAR DO ESPÍRITO SANTO</small>
+        </div>
+    </div>
+
+    <nav class="nav" aria-label="Navegação principal">
+        <a href="index.html">INÍCIO</a>
+        <a href="projeto.html">PROJETO</a>
+        <a href="unidades.html">UNIDADES</a>
+        <a href="galeria.html">GALERIA</a>
+        <a href="charges.html">CHARGES</a>
+        <a href="noticias.html">NOTÍCIAS</a>
+        <a href="contato.html">FALE CONOSCO</a>
+    </nav>
+
+</header>
+
+<main>
+
+<section class="hero">
+    <div class="hero-copy">
+
+        <div class="eyebrow">
+            09 &nbsp; • &nbsp; CHARGES
+        </div>
+
+        <h1>
+            Aprender, refletir e evoluir
+        </h1>
+
+        <p>
+            Uma forma leve e criativa de apresentar os valores,
+            ensinamentos e momentos que fazem parte da formação
+            do Projeto Jovem Militar.
+        </p>
+
+    </div>
+</section>
+
+<section class="charges-page">
+
+    <div class="charges-intro">
+
+        <h1>CHARGES PJM</h1>
+
+        <p>
+            Nossos mascotes representam, de forma descontraída,
+            princípios como disciplina, cidadania, respeito,
+            conhecimento, superação e trabalho em equipe.
+        </p>
+
+    </div>
+
+    <div class="charges-grid">
+
+        <article class="charge-card">
+            <img src="assets/charges/charge-01.jpg"
+                 alt="Charge PJM - Bem-vindo ao site">
+            <div class="charge-info">
+                <h2>Bem-vindo ao PJM</h2>
+                <p>Conheça o projeto e suas oportunidades.</p>
+            </div>
+        </article>
+
+        <article class="charge-card">
+            <img src="assets/charges/charge-02.jpg"
+                 alt="Charge PJM - Disciplina">
+            <div class="charge-info">
+                <h2>Disciplina</h2>
+                <p>Valores que transformam vidas.</p>
+            </div>
+        </article>
+
+        <article class="charge-card">
+            <img src="assets/charges/charge-03.jpg"
+                 alt="Charge PJM - Conheça o site">
+            <div class="charge-info">
+                <h2>Conheça o site</h2>
+                <p>Informação para quem quer conhecer o PJM.</p>
+            </div>
+        </article>
+
+        <article class="charge-card">
+            <img src="assets/charges/charge-04.jpg"
+                 alt="Charge PJM - Superação">
+            <div class="charge-info">
+                <h2>Superação</h2>
+                <p>Superar limites também faz parte da jornada.</p>
+            </div>
+        </article>
+
+        <article class="charge-card">
+            <img src="assets/charges/charge-05.jpg"
+                 alt="Charge PJM - Cidadania">
+            <div class="charge-info">
+                <h2>Cidadania</h2>
+                <p>Formação para cidadãos mais conscientes.</p>
+            </div>
+        </article>
+
+        <article class="charge-card">
+            <img src="assets/charges/charge-06.jpg"
+                 alt="Charge PJM - Conhecimento">
+            <div class="charge-info">
+                <h2>Conhecimento</h2>
+                <p>Estudar, planejar, evoluir e conquistar.</p>
+            </div>
+        </article>
+
+        <article class="charge-card">
+            <img src="assets/charges/charge-07.jpg"
+                 alt="Charge PJM - Trabalho em equipe">
+            <div class="charge-info">
+                <h2>Trabalho em equipe</h2>
+                <p>Juntos por um futuro melhor.</p>
+            </div>
+        </article>
+
+        <article class="charge-card">
+            <img src="assets/charges/charge-08.jpg"
+                 alt="Charge PJM - Futuro">
+            <div class="charge-info">
+                <h2>Um futuro melhor</h2>
+                <p>Disciplina, cidadania e oportunidades.</p>
+            </div>
+        </article>
+
+    </div>
+
+</section>
+
+</main>
+
+</body>
+</html>
