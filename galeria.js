@@ -61,6 +61,10 @@
    * Os arquivos já existentes no GitHub não são alterados.
    */
 
+  const tituloFotos = document.createElement('div');
+tituloFotos.className = 'gallery-section-title';
+tituloFotos.textContent = 'REGISTROS DO PROJETO';
+gallery.appendChild(tituloFotos);
   novasFotos.forEach(([numero, legenda]) => {
     const figure = document.createElement('figure');
 
@@ -86,6 +90,10 @@
    * Adiciona as 9 charges ao final da galeria.
    */
 
+  const tituloCharges = document.createElement('div');
+tituloCharges.className = 'gallery-section-title';
+tituloCharges.textContent = 'CHARGES — PROJETO JOVEM MILITAR';
+gallery.appendChild(tituloCharges);
   charges.forEach(([numero, legenda]) => {
     const figure = document.createElement('figure');
 
