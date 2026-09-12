@@ -42,4 +42,4 @@
 @media(max-width:850px){.hero{min-height:470px;padding:65px 5%}.hero .seal{display:none}}
 @media(max-width:620px){.hero{min-height:430px}.hero h1{font-size:2.8rem}}
 .pjm-footer .footer-grid{display:grid;grid-template-columns:1.35fr .8fr .8fr 1fr;gap:54px}.pjm-footer .footer-brand{display:flex;flex-direction:column;align-items:flex-start}.pjm-footer{padding:25px 0 0}.pjm-footer .footer-bottom{margin-top:0}
-.pjm-footer .footer-bottom{padding-left:max(24px,calc((100% - 1180px)/2));padding-right:max(24px,calc((100% - 1180px)/2))}
+.pjm-footer .footer-bottom{max-width:1180px;margin:0 auto;padding:18px 0 20px;box-sizing:border-box}
