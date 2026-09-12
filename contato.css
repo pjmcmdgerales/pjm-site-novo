@@ -20,3 +20,6 @@ footer{background:#04140d;border-top:1px solid rgba(255,255,255,.1)}.footer-inne
 .map-button:hover{background:#d4ad35;color:#001d18;border-color:#d4ad35;transform:translateY(-1px)}
 .map-button span{font-size:1rem}
 @media (max-width:700px){.map-button{font-size:.68rem;width:100%;justify-content:space-between}}
+.pjm-footer .footer-grid{display:grid;grid-template-columns:1.35fr 1fr 1fr;gap:54px}
+.pjm-footer{padding:25px 0 0}
+.pjm-footer .footer-bottom{max-width:1320px;margin:0 auto;padding:18px 0 20px}
