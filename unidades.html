@@ -59,13 +59,19 @@
 </footer>
 <script src="common.js"></script>
 <script>
-card.addEventListener('click',()=>{
+document.querySelectorAll('.unit-card').forEach(card=>{
+  card.addEventListener('click',()=>{
+    document.querySelectorAll('.unit-card').forEach(c=>c.classList.remove('active'));
+    card.classList.add('active');
+
     const strong=card.querySelector('strong').textContent;
     const small=card.querySelector('small').textContent;
+
     document.querySelector('#unitDetail h3').textContent=strong;
     document.querySelector('#unitDetail p').textContent=small + ' — informações institucionais serão atualizadas pelo Comando Geral.';
   });
 });
+</script>
 </script>
 </body>
 </html>
