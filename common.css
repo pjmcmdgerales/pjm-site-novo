@@ -6,7 +6,7 @@
 .nav a.active:after{transform:scaleX(1)!important}
 .header-cta,.cta{white-space:nowrap}
 .pjm-footer{background:#001d18;color:#f7f8f4;border-top:1px solid rgba(212,173,53,.34);padding:58px 0 0}
-grid-template-columns:1.35fr .8fr 1fr 1fr;
+/* Configuração das colunas do rodapé definida nas regras específicas */
 .pjm-footer .footer-title{font-size:22px;font-weight:700;letter-spacing:.08em}
 .pjm-footer .footer-subtitle{margin-top:9px;font-size:11px;line-height:1.6;letter-spacing:.08em;color:rgba(247,248,244,.72);max-width:360px}
 .pjm-footer .footer-command{margin-top:8px;font-size:12px;letter-spacing:.18em;color:#d4ad35}
