@@ -17,3 +17,4 @@ footer{background:#04140d;border-top:1px solid rgba(255,255,255,.1)}.footer-inne
 
 .main-button{display:inline-flex;align-items:center;gap:28px;border:1px solid rgba(255,255,255,.75);color:#fff;text-decoration:none;padding:18px 23px;font-size:10px;letter-spacing:1.5px;white-space:nowrap}.main-button span{font-size:19px;color:#b8d79d}
 .pre-section{background:#061b12;padding:82px 0 110px}.after-section .section-kicker{color:#6e8e59}
+.pjm-footer .footer-grid{display:grid;grid-template-columns:1.35fr .8fr 1fr;gap:54px}.pjm-footer{padding:25px 0 0}.pjm-footer .footer-bottom{margin-top:0}
