@@ -8,3 +8,7 @@
 .pre-action{margin-top:55px;padding:38px;background:#e9eeea;display:flex;justify-content:space-between;align-items:center;gap:30px}.pre-action h2{font-size:2rem;margin:8px 0}.pre-action .primary-btn{margin-top:0}
 @media(max-width:950px){.steps{grid-template-columns:1fr 1fr}.pre-intro{display:block}.pre-intro p{margin-top:20px}.pre-action{display:block}.pre-action .primary-btn{margin-top:15px}}
 @media(max-width:600px){.pre-main{padding:75px 5vw}.pre-hero{min-height:500px}.pre-copy{width:90%}.pre-hero h1{font-size:2.8rem}.steps{grid-template-columns:1fr}.requirements{padding:28px 22px;align-items:flex-start}.requirements-mark{width:58px;height:58px}.primary-btn{width:100%;justify-content:space-between}}
+.pjm-footer .footer-grid{display:grid;grid-template-columns:1.35fr .8fr .8fr 1fr;gap:54px}
+.pjm-footer .footer-brand{display:flex;flex-direction:column;align-items:flex-start}
+.pjm-footer{padding:25px 0 0}
+.pjm-footer .footer-bottom{max-width:1180px;margin:0 auto;padding:18px 0 20px;box-sizing:border-box}
