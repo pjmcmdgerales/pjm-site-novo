@@ -41,3 +41,4 @@
 .hero .seal b{font-size:38px;letter-spacing:8px}.hero .seal span{font-size:9px;letter-spacing:3px;margin-top:5px;color:#fff}
 @media(max-width:850px){.hero{min-height:470px;padding:65px 5%}.hero .seal{display:none}}
 @media(max-width:620px){.hero{min-height:430px}.hero h1{font-size:2.8rem}}
+.pjm-footer .footer-grid{display:grid;grid-template-columns:1.35fr .8fr .8fr 1fr;gap:54px}.pjm-footer .footer-brand{display:flex;flex-direction:column;align-items:flex-start}.pjm-footer{padding:25px 0 0}.pjm-footer .footer-bottom{margin-top:0}
