@@ -20,6 +20,7 @@
   else if(path.includes('instituicoes.html')) page='instituicoes';
   else if(path.includes('contato.html')) page='contato';
   else if(path.includes('inscricao.html')) page='inscricao';
+else if(path.includes('pre-inscricao.html')) page='pre-inscricao';
   else if(hash==='#contato') page='contato';
 
   document.querySelectorAll('.nav a').forEach(a=>{
