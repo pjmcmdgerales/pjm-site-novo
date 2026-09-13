@@ -132,3 +132,7 @@ background:linear-gradient(90deg,rgba(0,29,24,.97),rgba(0,29,24,.57)),url("asset
 .hero-mark{
 display:none!important;
 }
+/* PJM — REMOVER SELOS CIRCULARES DOS HEROES */
+.hero .seal{
+display:none!important;
+}
