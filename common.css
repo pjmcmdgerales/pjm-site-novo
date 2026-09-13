@@ -97,3 +97,34 @@
   color:rgba(247,248,244,.78);
   line-height:1.45;
 }
+/* PJM — FOTO INSTITUCIONAL UNIVERSAL DOS HEROES */
+
+.project-hero{
+background:linear-gradient(90deg,rgba(3,18,11,.96) 0%,rgba(3,18,11,.78) 45%,rgba(3,18,11,.42) 78%,rgba(3,18,11,.7)),url("assets/hero-pjm.jpg") center/cover no-repeat!important;
+}
+
+.units-hero{
+background:linear-gradient(90deg,rgba(0,29,24,.94),rgba(0,29,24,.48)),url("assets/hero-pjm.jpg") center/cover no-repeat!important;
+}
+
+.formation-hero .hero-image,
+.participar-hero .hero-image{
+background:linear-gradient(90deg,rgba(3,18,11,.98) 0%,rgba(3,18,11,.78) 45%,rgba(3,18,11,.42) 78%,rgba(3,18,11,.7)),url("assets/hero-pjm.jpg") center/cover no-repeat!important;
+filter:none!important;
+}
+
+.hero{
+background:linear-gradient(90deg,rgba(0,44,36,.94) 0%,rgba(0,57,46,.62) 52%,rgba(0,37,31,.72) 100%),url("assets/hero-pjm.jpg") center/cover no-repeat!important;
+}
+
+.inst-hero{
+background:linear-gradient(90deg,rgba(0,44,36,.94) 0%,rgba(0,57,46,.62) 52%,rgba(0,37,31,.72) 100%),url("assets/hero-pjm.jpg") center/cover no-repeat!important;
+}
+
+.contact-hero{
+background:linear-gradient(90deg,rgba(7,29,19,.94) 0%,rgba(10,40,25,.62) 58%,rgba(13,48,31,.72) 100%),url("assets/hero-pjm.jpg") center/cover no-repeat!important;
+}
+
+.pre-hero{
+background:linear-gradient(90deg,rgba(0,29,24,.97),rgba(0,29,24,.57)),url("assets/hero-pjm.jpg") center/cover no-repeat!important;
+}
