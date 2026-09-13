@@ -128,3 +128,7 @@ background:linear-gradient(90deg,rgba(7,29,19,.94) 0%,rgba(10,40,25,.62) 58%,rgb
 .pre-hero{
 background:linear-gradient(90deg,rgba(0,29,24,.97),rgba(0,29,24,.57)),url("assets/hero-pjm.jpg") center/cover no-repeat!important;
 }
+/* PJM — REMOVER MARCAS CIRCULARES DOS HEROES */
+.hero-mark{
+display:none!important;
+}
