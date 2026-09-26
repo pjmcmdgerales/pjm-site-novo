@@ -5,3 +5,34 @@
 @media(max-width:1150px){.header{padding-left:5%;padding-right:5%}.topbar{padding-left:5%;padding-right:5%}}
 @media(max-width:850px){.header .nav{z-index:30}.header .menu-toggle{cursor:pointer}.header .brand strong{white-space:normal}}
 @media(max-width:620px){.topbar{letter-spacing:1.5px}.pjm-footer .container{width:90%}}
+/* PJM — AJUSTE DO RODAPÉ PARA CELULAR */
+@media (max-width: 620px) {
+  .pjm-footer .footer-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 28px !important;
+  }
+
+  .pjm-footer .footer-brand,
+  .pjm-footer .footer-links,
+  .pjm-footer .footer-contact {
+    width: 100% !important;
+    max-width: 100% !important;
+    grid-column: auto !important;
+  }
+
+  .pjm-footer .footer-title {
+    font-size: 20px !important;
+  }
+
+  .pjm-footer .footer-links a,
+  .pjm-footer .footer-contact span {
+    overflow-wrap: anywhere;
+  }
+
+  .pjm-footer .footer-bottom {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 10px !important;
+  }
+}
