@@ -35,4 +35,18 @@
     align-items: flex-start !important;
     gap: 10px !important;
   }
+/* PJM — organização dos links no celular */
+.pjm-footer .footer-links {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 12px;
+  row-gap: 10px;
 }
+
+.pjm-footer .footer-links strong {
+  grid-column: 1 / -1;
+}
+
+.pjm-footer .footer-links a {
+  overflow-wrap: anywhere;
+}}
