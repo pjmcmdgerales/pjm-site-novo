@@ -36,3 +36,26 @@
     gap: 10px !important;
   }
   }
+/* PJM - CORRECAO DA PAGINA INICIAL */
+.pillars .container.pillars-grid{
+  display:grid!important;
+  grid-template-columns:repeat(4,minmax(0,1fr))!important;
+  gap:24px!important;
+}
+.pillars .container.pillars-grid>*{
+  min-width:0!important;
+  line-height:1.6!important;
+}
+section.institutions img{
+  display:block!important;
+  width:100%!important;
+  max-width:120px!important;
+  height:100px!important;
+  object-fit:contain!important;
+  margin:0 auto 14px!important;
+}
+@media(max-width:700px){
+  .pillars .container.pillars-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  }
+}
