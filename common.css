@@ -144,14 +144,14 @@ display:none!important;
 display:none!important;
 }
 /* PJM — NOVA COMPOSIÇÃO DO HERO */
+/* PJM - AJUSTE SEGURO DO HERO */
 @media(min-width:851px){
 .hero .hero-content{
-margin-left:50%;
-padding-top:65px;
+position:relative;
+z-index:2;
 max-width:620px;
 }
 .hero .hero-side{
-right:4%;
-bottom:105px;
+z-index:2;
 }
 }
