@@ -105,11 +105,8 @@ background:linear-gradient(90deg,rgba(3,18,11,.96) 0%,rgba(3,18,11,.78) 45%,rgba
 
 
 .units-hero{
-  background:
-    linear-gradient(
-      90deg,
-      rgba(0, 12, 10, .76) 0%,
-      rgba(0, 18, 24, .68) 50%,
+background:linear-gradient(90deg,rgba(0,29,24,.94),rgba(0,29,24,.48)),url("assets/hero-pjm.jpg") center/cover no-repeat!important;
+}
       rgba(0, 12, 10, .76) 100%
     ),
     url("assets/bandeira-pedro-canario.png") center / cover no-repeat !important;
