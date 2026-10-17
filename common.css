@@ -103,12 +103,19 @@
 background:linear-gradient(90deg,rgba(3,18,11,.96) 0%,rgba(3,18,11,.78) 45%,rgba(3,18,11,.42) 78%,rgba(3,18,11,.7)),url("assets/hero-pjm.jpg") center/cover no-repeat!important;
 }
 
+
 .units-hero{
   background:
-    linear-gradient(90deg, rgba(0, 12, 10, .88) 0%, rgba(0, 25, 19, .76) 52%, rgba(0, 12, 10, .84) 100%),
-    url("assets/hero-pjm.jpg") center / cover no-repeat !important;
+    linear-gradient(
+      90deg,
+      rgba(0, 12, 10, .76) 0%,
+      rgba(0, 18, 24, .68) 50%,
+      rgba(0, 12, 10, .76) 100%
+    ),
+    url("assets/bandeira-pedro-canario.png") center / cover no-repeat !important;
   position: relative;
 }
+
 
 .formation-hero .hero-image,
 .participar-hero .hero-image{
