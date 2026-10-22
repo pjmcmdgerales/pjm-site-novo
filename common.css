@@ -193,3 +193,46 @@ body {
 .site-footer {
   background-color: #001510 !important;
 }
+
+/* PJM — DETALHES INSTITUCIONAIS BRANCOS */
+
+/* Nome COMANDO GERAL no cabeçalho */
+.brand-text em,
+.header .brand em,
+.site-header .brand em {
+  color: #FFFFFF !important;
+}
+
+/* Linhas divisórias e bordas institucionais */
+.site-header,
+.header,
+.pillars,
+.pjm-footer,
+.site-footer {
+  border-color: rgba(255,255,255,.65) !important;
+}
+
+/* Linha de destaque do banner */
+.hero-line,
+.quote-line {
+  background: #FFFFFF !important;
+}
+
+/* Detalhes e títulos institucionais */
+.section-kicker,
+.footer-command,
+.pjm-footer .footer-links strong,
+.pjm-footer .footer-contact strong {
+  color: #FFFFFF !important;
+}
+
+/* Indicadores e símbolos da faixa institucional */
+.pillars-grid b {
+  color: #FFFFFF !important;
+}
+
+/* Linha ativa do menu */
+.nav a.active::after,
+.header .nav a.active::after {
+  background: #FFFFFF !important;
+}
