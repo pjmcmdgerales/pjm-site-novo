@@ -155,3 +155,41 @@ max-width:620px;
 z-index:2;
 }
 }
+
+/* PJM — TEMA VERDE MILITAR NOTURNO */
+
+:root {
+  --g: #001510;
+  --g2: #002019;
+}
+
+/* Fundo geral */
+body {
+  background-color: #001510 !important;
+}
+
+/* Cabeçalhos */
+.site-header,
+.header,
+.topbar {
+  background-color: #001510 !important;
+}
+
+/* Seções institucionais */
+.institutions,
+.pillars,
+.quote,
+.contact {
+  background-color: #001510 !important;
+}
+
+/* Cartões institucionais */
+.institution-grid a {
+  background-color: #002019 !important;
+}
+
+/* Rodapé */
+.pjm-footer,
+.site-footer {
+  background-color: #001510 !important;
+}
