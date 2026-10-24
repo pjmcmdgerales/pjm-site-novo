@@ -41,3 +41,21 @@ footer{background:#04140d;border-top:1px solid rgba(255,255,255,.1);padding:19px
     background: none !important;
     opacity: 0 !important;
 }
+
+/* REMOVER DEGRADE BRANCO DO BANNER */
+
+.project-hero {
+    background: url("assets/banner-projeto-cinematografico.png")
+        center center / cover no-repeat !important;
+}
+
+.project-hero::before,
+.project-hero::after {
+    content: none !important;
+    background: none !important;
+}
+
+.project-hero .container {
+    position: relative;
+    z-index: 2;
+}
