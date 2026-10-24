@@ -388,3 +388,96 @@ body .social-section .social-links a:hover {
     gap: 18px;
   }
 }
+
+/* PJM - ASSUNTOS DE ATENDIMENTO */
+
+.contact-subjects {
+  background: #f7f8f5;
+  padding: 75px 20px;
+}
+
+.contact-subjects .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-subjects .subjects-label {
+  display: block;
+  color: #a58a45;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+
+.contact-subjects h2 {
+  color: #003b2d;
+  font-size: clamp(28px, 3vw, 38px);
+  margin-bottom: 18px;
+}
+
+.contact-subjects .subjects-intro {
+  color: #44534c;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 850px;
+  margin-bottom: 35px;
+}
+
+.contact-subjects .subjects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.contact-subjects .subject-card {
+  background: #ffffff;
+  border: 1px solid #e2e7e3;
+  border-radius: 12px;
+  padding: 30px 25px;
+  box-shadow: 0 8px 24px rgba(0, 30, 22, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.contact-subjects .subject-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-subjects .subject-number {
+  display: block;
+  color: #b59a52;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+
+.contact-subjects .subject-card h3 {
+  color: #003b2d;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.contact-subjects .subject-card p {
+  color: #66736c;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+@media (max-width: 900px) {
+  .contact-subjects .subjects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-subjects {
+    padding: 50px 18px;
+  }
+
+  .contact-subjects .subjects-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
