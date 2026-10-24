@@ -253,3 +253,60 @@
     gap: 18px;
   }
 }
+
+/* PJM - TEXTO INSTITUCIONAL DAS PARCERIAS */
+
+.partners-message {
+  max-width: 1000px;
+  margin: 50px auto 55px;
+  padding: 0 20px;
+}
+
+.partners-message .section-label {
+  display: block;
+  color: #a58a45;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.partners-message h2 {
+  color: #003b2d;
+  font-size: clamp(28px, 3vw, 38px);
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.partners-message h3 {
+  color: #003b2d;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 25px 0 15px;
+}
+
+.partners-message p {
+  color: #44534c;
+  font-size: 16px;
+  line-height: 1.9;
+  margin-bottom: 20px;
+}
+
+.partners-message .partners-highlight {
+  border-left: 4px solid #b59a52;
+  background: #f5f6f1;
+  padding: 18px 22px;
+  border-radius: 0 8px 8px 0;
+  color: #003b2d;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .partners-message {
+    margin: 35px auto 45px;
+  }
+
+  .partners-message h3 {
+    font-size: 18px;
+  }
+}
