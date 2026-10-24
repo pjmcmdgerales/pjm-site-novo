@@ -40,3 +40,10 @@ footer{background:#04140d;border-top:1px solid rgba(255,255,255,.1)}.footer-inne
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
+
+/* PJM - OCULTAR IDENTIFICAÇÃO DAS SEÇÕES */
+
+.contact-paper .section-kicker,
+.social-section .section-kicker {
+    display: none !important;
+}
