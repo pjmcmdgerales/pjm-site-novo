@@ -301,3 +301,90 @@ body .social-section .social-links a:hover {
 .contact-service .section-kicker {
   color: #a58a45 !important;
 }
+
+/* PJM - CANAIS DE ATENDIMENTO */
+
+.contact-channels {
+  background: #f7f8f5;
+  padding: 75px 20px;
+}
+
+.contact-channels .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-channels .channels-label {
+  display: block;
+  color: #a58a45;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+
+.contact-channels h2 {
+  color: #003b2d;
+  font-size: clamp(28px, 3vw, 38px);
+  margin-bottom: 18px;
+}
+
+.contact-channels .channels-intro {
+  color: #44534c;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 800px;
+  margin-bottom: 35px;
+}
+
+.contact-channels .channels-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.contact-channels .channel-card {
+  background: #ffffff;
+  border: 1px solid #e2e7e3;
+  border-radius: 12px;
+  padding: 32px 25px;
+  box-shadow: 0 8px 24px rgba(0, 30, 22, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.contact-channels .channel-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-channels .channel-card h3 {
+  color: #003b2d;
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
+.contact-channels .channel-card p {
+  color: #66736c;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 22px;
+}
+
+.contact-channels .channel-card span,
+.contact-channels .channel-card a {
+  color: #a58a45;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .contact-channels {
+    padding: 50px 18px;
+  }
+
+  .contact-channels .channels-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
