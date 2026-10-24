@@ -23,3 +23,20 @@ footer{background:#04140d;border-top:1px solid rgba(255,255,255,.1)}.footer-inne
 .pjm-footer .footer-grid{display:grid;grid-template-columns:1.35fr 1fr 1fr;gap:54px}
 .pjm-footer{padding:25px 0 0}
 .pjm-footer .footer-bottom{max-width:1320px;margin:0 auto;padding:18px 0 20px}
+/* PJM — NOVO BANNER INSTITUCIONAL DA PÁGINA CONTATO */
+
+.contact-hero {
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(0, 21, 16, 0.80) 0%,
+      rgba(0, 21, 16, 0.45) 38%,
+      rgba(0, 21, 16, 0.08) 70%,
+      rgba(0, 21, 16, 0.04) 100%
+    ),
+    url("assets/banner-contato-pjm.png") !important;
+
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
