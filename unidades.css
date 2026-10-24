@@ -75,3 +75,12 @@ html body .units-hero {
         padding: 75px 0;
     }
 }
+/* SOMBRA DISCRETA NO TEXTO DO BANNER */
+.units-hero h1 {
+    text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.45);
+}
+
+.units-hero p,
+.units-hero .eyebrow {
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
+}
