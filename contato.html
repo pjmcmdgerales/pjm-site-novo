@@ -329,6 +329,36 @@
 </section>
 <!-- FIM DO FORMULÁRIO DE CONTATO -->
 
+<!-- ENVIO DO FORMULÁRIO PELO WHATSAPP -->
+<script>
+document.querySelector(".pjm-contact-form")
+  .addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const form = event.currentTarget;
+
+    const nome = form.querySelector('[name="nome"]').value.trim();
+    const email = form.querySelector('[name="email"]').value.trim();
+    const telefone = form.querySelector('[name="telefone"]').value.trim();
+    const assunto = form.querySelector('[name="assunto"]').value;
+    const mensagem = form.querySelector('[name="mensagem"]').value.trim();
+
+    const texto =
+      "PROJETO JOVEM MILITAR - CONTATO\n\n" +
+      "Nome: " + nome + "\n" +
+      "E-mail: " + email + "\n" +
+      "Telefone: " + (telefone || "Não informado") + "\n" +
+      "Assunto: " + assunto + "\n\n" +
+      "Mensagem:\n" + mensagem;
+
+    const url = "https://wa.me/5527997310707?text=" +
+      encodeURIComponent(texto);
+
+    window.location.href = url;
+  });
+</script>
+<!-- FIM DO ENVIO PELO WHATSAPP -->
+
 </main>
 
 
