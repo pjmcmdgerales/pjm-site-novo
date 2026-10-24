@@ -191,3 +191,31 @@ footer{background:#04140d;border-top:1px solid rgba(255,255,255,.1)}.footer-inne
     height: auto;
   }
 }
+
+/* PJM - CORREÇÃO DOS BOTÕES DAS REDES SOCIAIS */
+
+.social-section .social-links a {
+    color: #FFFFFF !important;
+    border: 1px solid rgba(255,255,255,0.65);
+    background: rgba(0,0,0,0.15);
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Setas douradas */
+.social-section .social-links a span {
+    color: #D4AD35 !important;
+}
+
+/* Efeito ao passar o mouse */
+.social-section .social-links a:hover {
+    background: #D4AD35;
+    color: #001D18 !important;
+    border-color: #D4AD35;
+}
+
+/* Seta no efeito hover */
+.social-section .social-links a:hover span {
+    color: #001D18 !important;
+}
