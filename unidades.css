@@ -43,3 +43,35 @@ html body .units-hero {
     background-repeat: no-repeat !important;
     background-color: #061b12 !important;
 }
+
+/* AJUSTE DO TITULO - ABA UNIDADES */
+
+.units-hero .hero-copy {
+    width: min(1120px, 86%);
+    margin: auto;
+    padding: 90px 0 100px;
+}
+
+.units-hero h1 {
+    font-size: clamp(42px, 4.2vw, 68px) !important;
+    line-height: 1.08 !important;
+    max-width: 570px;
+    margin: 22px 0 24px;
+}
+
+.units-hero p {
+    max-width: 430px;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+    .units-hero h1 {
+        font-size: 38px !important;
+    }
+
+    .units-hero .hero-copy {
+        width: 90%;
+        padding: 75px 0;
+    }
+}
