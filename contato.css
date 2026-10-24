@@ -84,3 +84,30 @@ footer{background:#04140d;border-top:1px solid rgba(255,255,255,.1)}.footer-inne
         opacity: 0.05;
     }
 }
+
+/* PJM - BRASÃO MAIOR E CENTRALIZADO */
+
+@media (min-width: 981px) {
+    .contact-paper::before {
+        top: 100% !important;
+        left: 3% !important;
+        width: 40% !important;
+        height: 200% !important;
+        transform: translateY(-50%) !important;
+        background-size: contain !important;
+        background-position: center center !important;
+        opacity: 0.12 !important;
+        z-index: 1 !important;
+    }
+
+    .contact-paper,
+    .social-section {
+        overflow: visible !important;
+    }
+
+    .contact-paper .container,
+    .social-section .container {
+        position: relative;
+        z-index: 2;
+    }
+}
