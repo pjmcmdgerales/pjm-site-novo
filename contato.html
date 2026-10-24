@@ -241,6 +241,94 @@
 </section>
 <!-- FIM DOS ASSUNTOS DE ATENDIMENTO -->
 
+<!-- FORMULÁRIO DE CONTATO -->
+<section class="contact-form-section">
+  <div class="container">
+
+    <span class="form-label">
+      04 &nbsp; FORMULÁRIO DE CONTATO
+    </span>
+
+    <h2>Envie sua mensagem.</h2>
+
+    <p class="form-intro">
+      Tem alguma dúvida, solicitação ou proposta?
+      Preencha o formulário abaixo para entrar
+      em contato com a equipe do Projeto Jovem Militar.
+    </p>
+
+    <form class="pjm-contact-form" id="pjm-contact-form">
+
+      <div class="form-row">
+
+        <div class="form-field">
+          <label for="contact-name">Nome completo *</label>
+          <input type="text" id="contact-name"
+                 name="nome" required
+                 autocomplete="name"
+                 placeholder="Digite seu nome completo">
+        </div>
+
+        <div class="form-field">
+          <label for="contact-email">E-mail *</label>
+          <input type="email" id="contact-email"
+                 name="email" required
+                 autocomplete="email"
+                 placeholder="Digite seu e-mail">
+        </div>
+
+      </div>
+
+      <div class="form-row">
+
+        <div class="form-field">
+          <label for="contact-phone">Telefone</label>
+          <input type="tel" id="contact-phone"
+                 name="telefone"
+                 autocomplete="tel"
+                 placeholder="(00) 00000-0000">
+        </div>
+
+        <div class="form-field">
+          <label for="contact-subject">Assunto *</label>
+          <select id="contact-subject"
+                  name="assunto" required>
+            <option value="">Selecione um assunto</option>
+            <option>Matrículas e pré-inscrições</option>
+            <option>Unidades e funcionamento</option>
+            <option>Ensino e formação</option>
+            <option>Parcerias institucionais</option>
+            <option>Assuntos administrativos</option>
+            <option>Outros assuntos</option>
+          </select>
+        </div>
+
+      </div>
+
+      <div class="form-field">
+        <label for="contact-message">Mensagem *</label>
+        <textarea id="contact-message"
+                  name="mensagem"
+                  rows="6"
+                  required
+                  placeholder="Escreva sua mensagem aqui..."></textarea>
+      </div>
+
+      <button type="submit" class="form-submit">
+        ENVIAR MENSAGEM →
+      </button>
+
+      <p class="form-notice">
+        Seus dados serão utilizados exclusivamente
+        para o atendimento da sua solicitação.
+      </p>
+
+    </form>
+
+  </div>
+</section>
+<!-- FIM DO FORMULÁRIO DE CONTATO -->
+
 </main>
 
 
