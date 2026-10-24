@@ -255,3 +255,16 @@ body {
 .pjm-footer .footer-contact strong {
   color: #FFFFFF !important;
 }  
+/* PJM — BANNER OFICIAL DA PÁGINA CONTATO */
+
+body .contact-hero {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(0,21,16,.55) 0%,
+      rgba(0,21,16,.25) 45%,
+      rgba(0,21,16,.05) 100%
+    ),
+    url("assets/banner-contato-pjm.png")
+    center center / cover no-repeat !important;
+}
