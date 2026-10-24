@@ -237,3 +237,21 @@ body {
 .header .nav a.active::after {
   background: #FFFFFF !important;
 }
+/* PJM — PADRONIZAÇÃO BRANCA DOS TEXTOS */
+
+/* Palavras laterais da frase institucional */
+.quote-word {
+  color: #FFFFFF !important;
+}
+
+/* Títulos da seção de contato */
+.contact-item b {
+  color: #FFFFFF !important;
+}
+
+/* Destaques do rodapé */
+.pjm-footer .footer-command,
+.pjm-footer .footer-links strong,
+.pjm-footer .footer-contact strong {
+  color: #FFFFFF !important;
+}  
