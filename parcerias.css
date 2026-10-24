@@ -190,3 +190,66 @@
   }
 }
 
+
+/* PJM - VITRINE DE EMPRESAS PARCEIRAS */
+
+.partners-showcase {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin: 35px 0 65px;
+}
+
+.partner-card {
+  background: #ffffff;
+  border: 1px solid #e2e7e3;
+  border-radius: 12px;
+  padding: 30px 22px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 30, 22, 0.06);
+  transition: transform 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+.partner-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 30px rgba(0, 30, 22, 0.12);
+}
+
+.partner-logo {
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f8f4;
+  border: 1px dashed #c5cbbf;
+  border-radius: 8px;
+  margin-bottom: 22px;
+  color: #839088;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.partner-logo img {
+  max-width: 85%;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.partner-card h3 {
+  color: #003b2d;
+  font-size: 19px;
+  margin-bottom: 8px;
+}
+
+.partner-card p {
+  color: #66736c;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .partners-showcase {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
