@@ -168,3 +168,26 @@ footer{background:#04140d;border-top:1px solid rgba(255,255,255,.1)}.footer-inne
     padding: 10px 0 45px;
   }
 }
+/* BANNER REDES SOCIAIS - PJM */
+
+.contact-banner-social {
+  width: 100%;
+  background: #f4f4ee;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.contact-banner-social img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 600px) {
+  .contact-banner-social img {
+    width: 100%;
+    height: auto;
+  }
+}
