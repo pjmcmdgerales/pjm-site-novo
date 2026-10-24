@@ -295,3 +295,9 @@ body .social-section .social-links a:hover {
     padding: 45px 18px;
   }
 }
+
+/* CORREÇÃO DO TÍTULO CENTRAL DE ATENDIMENTO */
+
+.contact-service .section-kicker {
+  color: #a58a45 !important;
+}
