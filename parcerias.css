@@ -122,19 +122,20 @@
   }
 }
 
-/* PJM - CORREÇÃO DO MENU PARCERIAS */
 
-/* Remove o traço de todos os links */
-.header .nav a::after {
-    transform: scaleX(0) !important;
+/* PJM - MENU ATIVO SOMENTE EM PARCERIAS */
+
+/* Remove o destaque de INÍCIO */
+.header .nav a[href="index.html"]::after {
+    content: none !important;
 }
 
-/* Exibe o traço somente em PARCERIAS */
+/* Mantém o destaque somente em PARCERIAS */
 .header .nav a[href="parcerias.html"]::after {
+    content: "" !important;
+    display: block !important;
     transform: scaleX(1) !important;
-}
-
-/* Destaque da aba PARCERIAS */
-.header .nav a[href="parcerias.html"] {
-    color: #ffffff !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    background: #ffffff !important;
 }
