@@ -140,3 +140,32 @@ footer{background:#04140d;border-top:1px solid rgba(255,255,255,.1)}.footer-inne
     max-height: 280px;
   }
 }
+
+/* AJUSTE DO BRASÃO - PÁGINA CONTATO */
+
+.contact-paper {
+  position: relative;
+  overflow: hidden !important;
+}
+
+.contact-paper .section-grid {
+  align-items: center !important;
+}
+
+.contact-paper .section-grid > :first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+
+.contact-paper .section-grid > :first-child img {
+  display: block;
+  width: 350px !important;
+  max-width: 90% !important;
+  height: auto !important;
+  max-height: 480px !important;
+  object-fit: contain !important;
+  margin: 0 auto !important;
+  opacity: 0.15;
+}
