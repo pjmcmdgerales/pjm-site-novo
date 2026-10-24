@@ -246,3 +246,52 @@ body .social-section .social-links a:hover {
     color: #061B12 !important;
     -webkit-text-fill-color: #061B12 !important;
 }
+
+/* PJM - CENTRAL DE ATENDIMENTO */
+
+.contact-service {
+  background: #f7f8f5;
+  padding: 65px 20px;
+}
+
+.contact-service .container {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.contact-service .section-kicker {
+  display: block;
+  color: #a58a45;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+
+.contact-service h2 {
+  color: #003b2d;
+  font-size: clamp(28px, 3vw, 38px);
+  margin-bottom: 25px;
+}
+
+.contact-service p {
+  color: #44534c;
+  font-size: 16px;
+  line-height: 1.9;
+  margin-bottom: 20px;
+}
+
+.contact-service .contact-service-highlight {
+  color: #003b2d;
+  font-weight: 700;
+  border-left: 4px solid #b59a52;
+  padding: 15px 20px;
+  background: #ffffff;
+  border-radius: 0 8px 8px 0;
+}
+
+@media (max-width: 768px) {
+  .contact-service {
+    padding: 45px 18px;
+  }
+}
