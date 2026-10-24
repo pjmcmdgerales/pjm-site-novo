@@ -34,3 +34,12 @@ background:linear-gradient(90deg,rgba(0,29,24,.94),rgba(0,29,24,.48)),url('asset
 .units-main {
     border-top: none !important;
 }
+
+/* BANNER DEFINITIVO - UNIDADES */
+html body .units-hero {
+    background-image: url("assets/banner-unidades-novo.png") !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-color: #061b12 !important;
+}
