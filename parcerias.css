@@ -121,3 +121,20 @@
     padding: 28px;
   }
 }
+
+/* PJM - CORREÇÃO DO MENU PARCERIAS */
+
+/* Remove o traço de todos os links */
+.header .nav a::after {
+    transform: scaleX(0) !important;
+}
+
+/* Exibe o traço somente em PARCERIAS */
+.header .nav a[href="parcerias.html"]::after {
+    transform: scaleX(1) !important;
+}
+
+/* Destaque da aba PARCERIAS */
+.header .nav a[href="parcerias.html"] {
+    color: #ffffff !important;
+}
