@@ -111,3 +111,32 @@ footer{background:#04140d;border-top:1px solid rgba(255,255,255,.1)}.footer-inne
         z-index: 2;
     }
 }
+
+/* PJM - Ajuste do brasão na página Contato */
+
+.contact-paper {
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-paper .section-grid {
+  align-items: center;
+}
+
+.contact-paper .pjm-watermark img {
+  display: block;
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  max-height: 440px;
+  object-fit: contain;
+  margin: 0 auto;
+  opacity: 0.15;
+}
+
+@media (max-width: 700px) {
+  .contact-paper .pjm-watermark img {
+    max-width: 230px;
+    max-height: 280px;
+  }
+}
