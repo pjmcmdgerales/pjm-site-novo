@@ -219,13 +219,81 @@
 .hero-line {
     display: none !important;
 }
+  
+/* NOVA SEÇÃO - NOSSA FORMAÇÃO */
+.formacao-destaque {
+  background: #001b15;
+  padding: 75px 20px 90px;
+}
+
+.formacao-cabecalho {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.formacao-cabecalho span {
+  color: #d9b65d;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.formacao-cabecalho h2 {
+  color: #ffffff;
+  font-size: clamp(26px, 3vw, 40px);
+  margin: 18px 0;
+}
+
+.formacao-cabecalho p {
+  color: #d5dfd9;
+  font-size: 16px;
+}
+
+.formacao-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+.formacao-card {
+  background: #032b21;
+  border: 1px solid #315044;
+  border-radius: 12px;
+  padding: 35px 22px;
+  text-align: center;
+}
+
+.formacao-card h3 {
+  color: #d9b65d;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.formacao-card p {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .formacao-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .formacao-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
 </style>
 <link rel="stylesheet" href="common.css">  <link rel="stylesheet" href="responsive.css">
 </head><body>
 <header class="site-header"><div class="container header-inner">
 <a class="brand" href="index.html"><img src="assets/brasao-comando-geral.png" alt="Brasão do Comando Geral"><span class="brand-text"><strong>PROJETO JOVEM MILITAR</strong><small>ESCOLA PREPARATÓRIA<br>PRÉ-MILITAR DO ESPÍRITO SANTO</small><em>COMANDO GERAL</em></span></a>
 <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
-<nav class="nav" aria-label="Navegação principal"><a class="active" href="index.html" data-page="inicio">INÍCIO</a><a href="projeto.html" data-page="projeto">O PROJETO</a><a href="unidades.html" data-page="unidades">UNIDADES</a><a href="formacao.html" data-page="formacao">FORMAÇÃO</a><a href="como-participar.html" data-page="como">COMO PARTICIPAR</a><a href="noticias.html" data-page="noticias">NOTÍCIAS</a><a href="galeria.html" data-page="galeria">GALERIA</a><a href="instituicoes.html" data-page="instituicoes">INSTITUIÇÕES</a><a href="parcerias.html" data-page="parcerias">PARCERIAS</a><a href="contato.html" data-page="contato">CONTATO</a></nav></div></header>
+<nav class="nav" aria-label="Navegação principal"><a class="active" href="index.html" data-page="inicio">INÍCIO</a><a href="projeto.html" data-page="projeto">O PROJETO</a><a href="unidades.html" data-page="unidades">UNIDADES</a><a href="formacao.html" data-page="formacao">FORMAÇÃO</a><a href="como-participar.html" data-page="como">COMO PARTICIPAR</a><a href="noticias.html" data-page="noticias">NOTÍCIAS</a><a href="galeria.html" data-page="galeria">GALERIA</a><a href="parcerias.html" data-page="parcerias">PARCERIAS</a><a href="contato.html" data-page="contato">CONTATO</a></nav></div></header>
 <main>
 <section class="hero" id="inicio"><img class="hero-image"
      src="assets/banner-pjm-operacional.png"
@@ -234,15 +302,36 @@
      loading="eager"
      decoding="async"><div class="hero-overlay"></div><div class="container hero-content"><h1>Jovens mais fortes para um Brasil <i>melhor.</i></h1><span class="hero-line"></span><p class="hero-lead">O Projeto Jovem Militar é uma escola preparatória que desenvolve disciplina, formação e cidadania, preparando jovens para os desafios da vida.</p></div><div class="hero-side">CARÁTER<br>DISCIPLINA<br>CONQUISTAS<br>SEMPRE</div></section>
 <section class="pillars"><div class="container pillars-grid"><div><b>✦</b><strong>DISCIPLINA</strong><span>para a vida</span></div><div><b>◆</b><strong>FORMAÇÃO</strong><span>de qualidade</span></div><div><b>▰</b><strong>CIDADANIA</strong><span>e valores</span></div><div><b>◈</b><strong>UM FUTURO</strong><span>melhor</span></div></div></section>
-<section class="institutions"><div class="container"><div class="section-head"><span class="section-kicker">INSTITUIÇÕES QUE NOS INSPIRAM</span><h2>Exemplos que fortalecem nossa missão</h2><p>Instituições que representam referências de disciplina, serviço à sociedade e compromisso com o Brasil.</p></div><div class="institution-grid">
-<a href="https://www.eb.mil.br/" target="_blank" rel="noopener"><img src="assets/eb.png" alt="Exército Brasileiro"><strong>EXÉRCITO<br>BRASILEIRO</strong></a>
-<a href="https://www.marinha.mil.br/" target="_blank" rel="noopener"><img src="assets/mb.png" alt="Marinha do Brasil"><strong>MARINHA<br>DO BRASIL</strong></a>
-<a href="https://www.fab.mil.br/" target="_blank" rel="noopener"><img src="assets/fab.png" alt="Força Aérea Brasileira"><strong>FORÇA AÉREA<br>BRASILEIRA</strong></a>
-<a href="https://pm.es.gov.br/" target="_blank" rel="noopener"><img src="assets/pmes.png" alt="Polícia Militar do Espírito Santo"><strong>POLÍCIA MILITAR<br>DO ESPÍRITO SANTO</strong></a>
-<a href="https://pc.es.gov.br/" target="_blank" rel="noopener"><img src="assets/pces.png" alt="Polícia Civil do Espírito Santo"><strong>POLÍCIA CIVIL<br>DO ESPÍRITO SANTO</strong></a>
-<a href="https://pp.es.gov.br/" target="_blank" rel="noopener"><img src="assets/ppes.png" alt="Polícia Penal do Espírito Santo"><strong>POLÍCIA PENAL<br>DO ESPÍRITO SANTO</strong></a>
-<a href="https://www.saomateus.es.gov.br/secretaria/seguranca-publica-e-defesa-social" target="_blank" rel="noopener" aria-label="Guarda Municipal de São Mateus"><img class="gm-logo" src="assets/gm-sao-mateus.png" alt="Guarda Municipal de São Mateus"><strong>GUARDA MUNICIPAL DE SÃO MATEUS</strong></a>
-</div></div></section>
+
+<section class="formacao-destaque">
+  <div class="container">
+    <div class="formacao-cabecalho">
+      <span>NOSSA FORMAÇÃO</span>
+      <h2>Preparando jovens para os desafios da vida</h2>
+      <p>Disciplina, cidadania e desenvolvimento pessoal para construir um futuro melhor.</p>
+    </div>
+
+    <div class="formacao-cards">
+      <div class="formacao-card">
+        <h3>DISCIPLINA</h3>
+        <p>Responsabilidade, organização e respeito.</p>
+      </div>
+      <div class="formacao-card">
+        <h3>LIDERANÇA</h3>
+        <p>Autoconfiança, iniciativa e trabalho em equipe.</p>
+      </div>
+      <div class="formacao-card">
+        <h3>CIDADANIA</h3>
+        <p>Ética, civismo e compromisso com a sociedade.</p>
+      </div>
+      <div class="formacao-card">
+        <h3>DESENVOLVIMENTO</h3>
+        <p>Superação, equilíbrio emocional e preparação para o futuro.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="quote"><div class="container quote-inner"><div><span class="quote-line"></span><blockquote>“Disciplina hoje,<br>mais oportunidades amanhã.”</blockquote></div><div class="quote-word">JOVENS<br>DISCIPLINA<br>CIDADANIA<br>BRASIL<br>SEMPRE</div></div></section>
 </main>
 
