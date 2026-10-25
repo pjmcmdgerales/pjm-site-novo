@@ -108,7 +108,45 @@
   }
 }
 
+/* AJUSTES FINAIS DA PAGINA INICIAL */
 
+/* Descer o cabecalho e evitar corte do brasao */
+.site-header {
+  position: relative !important;
+  top: auto !important;
+  margin-top: 0 !important;
+  padding-top: 55px !important;
+  overflow: visible !important;
+}
+
+.site-header .header-inner {
+  padding-top: 15px !important;
+  padding-bottom: 20px !important;
+}
+
+/* Corrigir os espacos do titulo */
+.hero-content h1 {
+  word-spacing: 5px !important;
+  letter-spacing: normal !important;
+  line-height: 1.2 !important;
+}
+
+/* Aproximar a secao de instituicoes do banner */
+.institutions {
+  padding-top: 35px !important;
+}
+
+.institutions .section-head {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 1099px) {
+  .hero-content h1 {
+    white-space: normal !important;
+  }
+}
 </style>
 <link rel="stylesheet" href="common.css">  <link rel="stylesheet" href="responsive.css">
 </head><body>
