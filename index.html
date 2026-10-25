@@ -221,10 +221,18 @@
 }
   
 /* NOVA SEÇÃO - NOSSA FORMAÇÃO */
+
 .formacao-destaque {
-  background: #001b15;
+  position: relative;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 27, 21, 0.65) 0%,
+    #001b15 75%
+  );
   padding: 75px 20px 90px;
+  margin-top: -1px;
 }
+
 
 .formacao-cabecalho {
   text-align: center;
@@ -285,6 +293,22 @@
   .formacao-cards {
     grid-template-columns: 1fr;
   }
+}
+
+/* INTEGRAÇÃO DO BANNER COM NOSSA FORMAÇÃO */
+.formacao-destaque {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(0, 27, 21, 0.30) 0%,
+      rgba(0, 27, 21, 0.80) 45%,
+      #001b15 100%
+    ),
+    url("assets/banner-pjm-operacional.png");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  border: none;
 }
 
 </style>
