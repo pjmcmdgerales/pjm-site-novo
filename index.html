@@ -54,6 +54,61 @@
     gap: 12px;
   }
 }
+
+  
+/* AJUSTES DO CABEÇALHO E BANNER - PJM */
+
+.site-header {
+  position: relative !important;
+  top: auto !important;
+  transform: none !important;
+  z-index: 10;
+}
+
+.site-header .header-inner {
+  padding-top: 45px !important;
+  padding-bottom: 25px !important;
+}
+
+.site-header .brand img {
+  display: block;
+  width: 105px;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+}
+
+/* REMOVE OS QUATRO ITENS INFERIORES */
+.pillars {
+  display: none !important;
+}
+
+/* REMOVE DISCIPLINA, RESPEITO, FOCO E LIDERANÇA */
+.hero-content .eyebrow {
+  display: none !important;
+}
+
+/* TÍTULO EM UMA LINHA NO COMPUTADOR */
+@media (min-width: 1100px) {
+  .hero-content h1 {
+    font-size: clamp(24px, 2.5vw, 42px) !important;
+    white-space: nowrap !important;
+    max-width: none !important;
+  }
+
+  .hero-content h1 br {
+    display: none !important;
+  }
+}
+
+/* NO CELULAR, PERMITE QUE O TÍTULO SE AJUSTE */
+@media (max-width: 1099px) {
+  .hero-content h1 {
+    white-space: normal !important;
+  }
+}
+
+
 </style>
 <link rel="stylesheet" href="common.css">  <link rel="stylesheet" href="responsive.css">
 </head><body>
