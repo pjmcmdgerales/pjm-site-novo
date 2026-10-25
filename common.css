@@ -268,3 +268,7 @@ body .contact-hero {
     url("assets/banner-contato-pjm.png")
     center center / cover no-repeat !important;
 }
+/* PJM - REMOVER FAIXA SUPERIOR */
+.topbar {
+    display: none !important;
+}
