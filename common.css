@@ -272,3 +272,8 @@ body .contact-hero {
 .topbar {
     display: none !important;
 }
+/* PJM - REMOVER IMAGEM DUPLICADA DA NOSSA FORMAÇÃO */
+.formacao-destaque {
+    background-image: none !important;
+    background-color: #001510 !important;
+}
