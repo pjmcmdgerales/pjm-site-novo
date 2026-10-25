@@ -277,3 +277,69 @@ body .contact-hero {
     background-image: none !important;
     background-color: #001510 !important;
 }
+
+/* PJM - MENU INSTITUCIONAL COM ICONES */
+.nav.nav-icones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: fit-content;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 20px;
+    background: rgba(0, 25, 19, 0.94);
+    border-radius: 8px;
+}
+
+.nav.nav-icones a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    min-height: 62px;
+    padding: 8px 12px;
+    color: #ffffff !important;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav.nav-icones .menu-icon {
+    display: block;
+    font-size: 25px;
+    line-height: 1;
+    color: #ffffff;
+}
+
+.nav.nav-icones a:hover,
+.nav.nav-icones a.active {
+    color: #e9bb45 !important;
+}
+
+.nav.nav-icones a:hover .menu-icon,
+.nav.nav-icones a.active .menu-icon {
+    color: #e9bb45;
+}
+
+@media (max-width: 768px) {
+    .nav.nav-icones {
+        width: 100%;
+        padding: 12px;
+        gap: 4px;
+    }
+
+    .nav.nav-icones a {
+        padding: 8px;
+        font-size: 11px;
+    }
+
+    .nav.nav-icones .menu-icon {
+        font-size: 22px;
+    }
+}
